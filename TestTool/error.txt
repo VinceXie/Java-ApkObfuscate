@@ -1,0 +1,16 @@
+09-18 14:57:16.448: E/AndroidRuntime(23304): FATAL EXCEPTION: main
+09-18 14:57:16.448: E/AndroidRuntime(23304): Process: com.example.abc, PID: 23304
+09-18 14:57:16.448: E/AndroidRuntime(23304): java.lang.RuntimeException
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at FHAJ.rhL.a(ProGuard:57)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at com.example.abc.MainActivity$1.onClick(ProGuard:39)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at android.view.View.performClick(View.java:4438)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at android.view.View$PerformClick.run(View.java:18422)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at android.os.Handler.handleCallback(Handler.java:733)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at android.os.Looper.loop(Looper.java:136)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at java.lang.reflect.Method.invokeNative(Native Method)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at java.lang.reflect.Method.invoke(Method.java:515)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+09-18 14:57:16.448: E/AndroidRuntime(23304): 	at dalvik.system.NativeStart.main(Native Method)

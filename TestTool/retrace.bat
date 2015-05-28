@@ -1,0 +1,1 @@
+java -jar mretrace.jar mapping-merger.txt error.txt

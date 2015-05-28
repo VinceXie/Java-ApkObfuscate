@@ -1,0 +1,6 @@
+
+        <meta-data
+            android:name="DELEGATE_APPLICATION_CLASS_NAME"
+            android:value="NeedToReplace" >
+        </meta-data>
+    </application>

@@ -1,0 +1,1 @@
+java -jar inject.jar proguard_bak.jar > out.txt

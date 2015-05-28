@@ -1,0 +1,1 @@
+把需注入合并功能的proguard复制在此目录并拖进inject.bat，生成opguard替换掉原来proguard即可使用。
