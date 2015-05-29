@@ -4,22 +4,22 @@
 
 **因为此项目没有上线所以没有进行过任何专业测试，只进行过自测。如果有任何bug可向我反馈，直接作用于商业项目上本人概不负责后果。**
 
-## ClassChange ASM
+## ClassChange ASM 作用于class
 ****
 实现了类名和包名混淆功能。可改变的类都分配到同一包下，混淆效果比Proguard好。重新分配Package会受Java的权限机制影响，因此某些类里的Signature会改变。
 
-## InjectProguard ASM
+## InjectProguard ASM 作用于class
 ****
-实现了把所新代码注入到Proguard的功能。可把自己实现的混淆注入到Proguard里，与Proguard一起使用，并不影响Proguard原有功能和不需更改原来的变异脚本。
+实现了把所新功能静态注入到Proguard的工具。可把自己实现的混淆注入到Proguard里，与Proguard一起使用，并不影响Proguard原有功能和不需更改原来的编译脚本。
 
-## JarObfuscate Smali
+## JarObfuscate Smali 作用于dex
 ****
-实现了代码乱序和代码代码隐藏功能。查看项目里的原理文档可了解实现原理。
+实现了代码乱序和代码隐藏功能。代码隐藏常作用于加壳功能，查看项目里的原理文档可了解实现原理。
 
-## MethodMerger ASM
+## MethodMerger ASM 作用于class
 ****
 实现了代码里的方法合并功能。查看项目里的原理文档可了解实现原理。
 
-## MergerRetrace ASM
+## MergerRetrace ASM 作用于class
 ****
 代码方法合并后出错堆栈不能对应源代码，通过此程序可让出错堆栈对应源代码。  
